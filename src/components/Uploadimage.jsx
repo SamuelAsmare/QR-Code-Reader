@@ -20,8 +20,8 @@ const Upload=()=>{
         <div className="" id="Upload">
 
         <div className="col-11 col-md-8 col-lg-6" id="littlecontainer">
-            <div id="uploadedimage">
-         <img   src={pic} alt="uploaded pic"id="theuploadedimage"  />
+            <div id="picdiv">
+         <img   src={pic} alt="uploaded picure"id="theuploadedimage"  />
             </div>
             <div >
                 <input type="file"  

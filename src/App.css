@@ -6,12 +6,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color:rgb(15, 50, 88);
+    /* background-color:rgb(15, 50, 88); */
     color:white;
     height:100vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 #navbar{
-   padding:0px;
+   padding:10px;
     display:flex;
     justify-content:flex-end;
     text-decoration:none;
@@ -30,12 +30,13 @@ body{
      text-decoration:none;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      transition:  0.1s ease-in-out;
+     font-size:13px;
 }
 #homecontainer{
     margin:auto;
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:0px;
     padding:30px;
     align-items:center;
     justify-content:center; 
@@ -61,7 +62,7 @@ body{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    width:80%;
+    width:100%;
     justify-content:center;
 
     
@@ -69,28 +70,29 @@ body{
 #upload{
     color:red;
     background-color:rgb(60, 255, 0);
-    width:200px;
-    height:40px;
-    text-decoration:none;
-    border-radius:10px;
-    font-size:18px;
-     border:none;
-    background:linear-gradient(45deg, rgb(231, 231, 13), rgb(4, 218, 230));
-    animation:animate 1.5s infinite alternate;
-}
-#takepic{
-    background-color:rgb(0, 238, 255);
-    width:200px;
-    height:40px;
+    width:150px;
+    height:30px;
     text-decoration:none;
      border-radius:10px;
     border:none;
-     font-size:18px;
+     font-size:13px;
+     font-weight:bold;
+     animation:animate 1.5s infinite alternate;
+}
+#takepic{
+    background-color:rgb(0, 238, 255);
+    width:150px;
+    height:30px;
+    text-decoration:none;
+     border-radius:10px;
+    border:none;
+     font-size:13px;
+     font-weight:bold;
      animation:animate 1.5s infinite alternate;
 }
 @keyframes animate{
    
-        from{transform:scale(0.9);}
+        from{transform:scale(0.95);}
         to{transform:scale(1);}
     
 }
@@ -106,6 +108,7 @@ body{
 
 /* Upload div */
 #Upload{
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,11 +117,6 @@ body{
     align-items: center;
     justify-content: center;
     gap:100px;
-}
-#uploadedimage{
-       border:none;
-    height:300px;
-   width:300px;
 }
 #littlecontainer{
     margin:auto;
@@ -133,30 +131,30 @@ body{
     box-shadow:white 2px 1px 10px 1px;
     backdrop-filter:blur(5px);
 }
-#uploadimage{
-   background-color:rgb(191, 235, 238);
-    width:400px;
-    height:30px;
-    text-decoration:none;
-     border-radius:10px;
-    border:none;
-    color:black;
-     font-size:18px;
-     }
 #uploadbutton{
     background-color:rgb(212, 255, 0);
     width:200px;
-    height:40px;
+    height:30px;
     text-decoration:none;
      border-radius:10px;
     border:none;
      font-size:18px;
      animation:animate 1.5s infinite alternate;
 }
+#uploadimage{
+    border-radius:10px;
+    background-color:#f5f0f0;
+    color:black;
+}
 #theuploadedimage{
+   
     width:100%;
     height:100%;
     border-radius:20px;
+}
+#picdiv{
+    width:200px;
+    height:200px;
 }
 #resultdiv{
     width:100%;
