@@ -12,8 +12,9 @@ import Contact from "./components/Contact";
 
 const App=()=> {
   return (
-    <Router>
-      <div id="largest" >
+    <div id="largest">   
+      <Router>
+      <div  >
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +24,8 @@ const App=()=> {
         </Routes>
       </div>
     </Router>
+    </div>
+ 
   );
 }
 export default  App;

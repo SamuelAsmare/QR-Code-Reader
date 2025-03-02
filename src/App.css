@@ -1,12 +1,11 @@
-body{
-    background-color: red;
-}
+
 #largest{
-    background-image: url("img.jpg"); 
+    background-image: url('./img.jpg');
+     /* background:linear-gradient(45deg, rgb(52, 130, 16), rgb(84, 213, 233));  */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-color:rgb(15, 50, 88); */
+     /* background-color:rgb(22, 92, 57);   */
     color:white;
     height:100vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
@@ -25,12 +24,16 @@ body{
 #List{
    margin:30px;
      display:flex;
+     justify-content:center;
      font-weight:bold;
      color:white;
      text-decoration:none;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      transition:  0.1s ease-in-out;
      font-size:13px;
+     background-color:rgb(10, 10, 6);
+      width:80%;
+      border-radius:5px;
 }
 #homecontainer{
     margin:auto;
@@ -40,7 +43,7 @@ body{
     padding:30px;
     align-items:center;
     justify-content:center; 
-    box-shadow:white 5px 4px 10px 0.1px;
+    box-shadow:white 3px 3px 10px 0.1px;
     border-radius:30px;
     border:none;
     backdrop-filter:blur(10px);}
@@ -54,8 +57,7 @@ body{
 }
 #List:hover{
     color:rgb(0, 229, 255);
-    text-decoration:underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #choices{
