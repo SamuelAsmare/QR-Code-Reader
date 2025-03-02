@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@zxing/browser": "^0.1.5",
     "bootstrap": "^5.3.3",
+    "jsqr": "^1.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"
