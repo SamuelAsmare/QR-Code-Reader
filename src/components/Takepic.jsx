@@ -16,7 +16,7 @@ const Takepic=()=>{
         "camera",
         {
           fps: 10,
-          qrbox: { width: 100, height: 100 },
+          qrbox: { width: 250, height: 250 },
         },
         false
       );
