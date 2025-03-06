@@ -129,7 +129,7 @@
     justify-content:center;
     padding:30px;
     border:none;
-    background-color: hwb(60 96% 0%);
+    background-color: white;
     border-radius:20px;
     box-shadow:rgb(164, 160, 160) 2px 1px 10px 1px;
     backdrop-filter:blur(5px);
