@@ -4,6 +4,13 @@ export default function Home() {
     <div id="home">    <div id="homecontainer" className="col-11 col-md-8 col-lg-6">
       {/* First container */}
                     <div>
+                    <h4 style={{
+                      margin:"auto",
+                      textAlign:"center",
+                     marginBottom:"20px",
+                    }}>
+                      <b >Welcome</b>
+                    </h4>
                       <h3
                       style={{
                         fontWeight: "bold"

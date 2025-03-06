@@ -7,7 +7,7 @@ export default function Navbar() {
        <li><Link to="/"  id="List"  >Home</Link></li>
         <li><Link to="/Upload"  id="List"  >Upload</Link></li>
        <li ><Link to="/Takepic" id="List"  >Take Picture</Link></li>
-       <li ><Link to="/Contact" id="List">Contact</Link></li>
+       {/* <li ><Link to="/Contact" id="List">Contact</Link></li> */}
      </ul>
    </nav>
   );
